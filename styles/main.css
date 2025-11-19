@@ -10,9 +10,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
   background-color: white;
-  margin-top: 300px;
+  margin-top: 100px;  /*   can we make full page center vertically?  */
 }
 
 .content-wrapper {
@@ -35,7 +34,6 @@ p {
 }
 
 
-
 .divider {
   color: black;
 }
@@ -52,9 +50,6 @@ p {
 }
 
 .container{
-  width: 400px;
-  height: 400px;
-  margin: 100px auto;
   position: relative;
   overflow: hidden;
 }
@@ -109,16 +104,19 @@ a:visited {
 }
 
 a.button {
-    background-color: transparent;
-    background-repeat: no-repeat;
-    border: none;
-    cursor: pointer;
-    overflow: hidden;
-    outline: none;
+  width: 40%;
+  height: auto;
+
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
 }
 
 .grid-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
 }
